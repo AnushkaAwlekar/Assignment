@@ -1,0 +1,57 @@
+/* ShowSchool.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: linear-gradient(135deg, #D9A299, #FAF7F3, #F0E4D3);
+  font-family: Cambria, serif;
+}
+.showschool-container {
+  padding: 16px;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  
+}
+
+.showschool-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.showschool-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.showschool-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background-color: #f0e4d3; /* fallback if no image */
+}
+
+.showschool-details {
+  padding: 12px;
+}
+
+.showschool-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+  color: #50382c;
+}
+
+.showschool-address {
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+  color: #7a5442;
+}
+
+.showschool-meta {
+  font-size: 0.8rem;
+  color: #666;
+}

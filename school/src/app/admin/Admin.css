@@ -1,0 +1,59 @@
+.admin-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #D9A299, #FAF7F3, #F0E4D3);
+  font-family: Cambria, serif;
+}
+
+.admin-form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  width: 100%;
+  max-width: 500px;
+  height: 400px;
+}
+
+.admin-title {
+    color: #5C4033;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.admin-input {
+  width: 100%;
+  font-size: 30px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  color: black;
+}
+
+.admin-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #D9A299;
+  font-size: 30px;
+  color:white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.admin-button:hover {
+  background: #a97d76;
+}
+
+.admin-error {
+  margin-top: 10px;
+  text-align: center;
+  color: red;
+  font-weight: 500;
+}
