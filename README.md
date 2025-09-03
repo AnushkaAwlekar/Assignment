@@ -37,7 +37,7 @@ https://github.com/user-attachments/assets/a1126add-03a0-4dfe-9767-cca1f4f88111
 1. **Login as Admin** → Only admin can log in. Unauthorized users cannot add schools.  
 2. **Add School Details** → Admin submits school name, location, and description.  
 3. **Database Storage** → Details are stored in Railway MySQL DB.  
-4. **View Schools** → Visit `/show-school` to see schools in **card format**.  
+4. **View Schools** → Visit `/showSchool` to see schools in **card format**.  
 
 ---
 
