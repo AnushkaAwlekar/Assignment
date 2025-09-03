@@ -29,7 +29,6 @@ https://github.com/user-attachments/assets/a1126add-03a0-4dfe-9767-cca1f4f88111
 - **Frontend & Backend:** Next.js  
 - **Database:** MySQL (hosted on Railway)  
 - **Authentication:** Admin login page  
-- **Deployment:** Vercel (for frontend/backend) + Railway (for database)  
 
 ---
 
